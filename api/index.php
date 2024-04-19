@@ -1,5 +1,5 @@
 <?php
-    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Origin: https://dogamo.vercel.app/");
     header("Access-Control-Allow-Headers: *");
     header("Access-Control-Allow-Methods: *");
 
