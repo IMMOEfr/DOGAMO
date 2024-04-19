@@ -13,7 +13,7 @@
         } else {
             die("Local environment file not found.");
         }
-     $conn = mysqli_connect($server, $user, $password, $db);
+     //$conn = mysqli_connect($server, $user, $password, $db);
     $method = $_SERVER['REQUEST_METHOD'];
     switch($method){
         case 'GET':
