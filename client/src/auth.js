@@ -38,4 +38,5 @@ export const { auth, signIn, signOut } = NextAuth({
       },
     }),
   ],
+ secret: process.env.AUTH_SECRET || 'secret',
 });
