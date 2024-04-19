@@ -1,0 +1,88 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/ui/dashboard/sidebar/sidebar.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+  .sidebar_container__JLady{
+    position: sticky;
+    top: 40px;
+  }
+  
+  .sidebar_userTitle__dRokm{
+    font-size: 12px;
+    color: var(--textSoft);
+  }
+  
+  .sidebar_logout__k1Gu0{
+    padding: 10px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    color: white;
+    width: 30%;
+  }
+  
+  .sidebar_logout__k1Gu0:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/ui/dashboard/dashboard.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.dashboard_container__HxzNE {
+    display: flex;
+  }
+  
+  .dashboard_menu__HuDqo {
+    background-color: var(--bgSoft);
+    padding: 10px;
+    min-height: 100vh;
+  }
+  
+  .dashboard_content__gl9q2 {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .dashboard_wrapper__d4GV6 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .dashboard_main__pzO7a {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard_cards__AUuOh {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .dashboard_side__CwHj_ {
+    flex: 1;
+  }
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/ui/dashboard/footer/footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.footer_container__frvvF {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: var(--textSoft);
+  }
+  
+  .footer_logo__kaonr {
+    font-weight: bold;
+  }
+  
+  .footer_text__sEOlP {
+    font-size: 12px;
+  }
