@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs-react';
  
 const login = async (credentials) => {
   try {
-    const reqUser = await fetch(`http://localhost/dogamo/usc-app/api/index.php?email=${credentials.email}`);
+    const reqUser = await fetch(`https://dogamo.vercel.app/dogamo/api/index.php?email=${credentials.email}`);
     const user = await reqUser.json();
     if(user.message == "User not found"){
       throw new Error("Wrong credentials!");
