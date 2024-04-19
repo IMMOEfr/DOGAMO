@@ -3,10 +3,17 @@
     header("Access-Control-Allow-Headers: *");
     header("Access-Control-Allow-Methods: *");
 
-    include("DbConnect.php");
-    $objDb = new dbConnect;
-    $conn = $objDb->connect();
-
+     $envFile = __DIR__ . '/_local.env';
+        if (file_exists($envFile)) {
+            $envVars = parse_ini_file($envFile);
+            $server = $envVars['DB_SERVER'];
+            $user = $envVars['DB_USER'];
+            $password = $envVars['DB_PASSWORD'];
+            $db = $envVars['DB_NAME'];
+        } else {
+            die("Local environment file not found.");
+        }
+     $conn = mysqli_connect($server, $user, $password, $db);
     $method = $_SERVER['REQUEST_METHOD'];
     switch($method){
         case 'GET':
