@@ -7,7 +7,7 @@ export const authenticate = async (prevState, formData) => {
     } catch (err) {
       console.log(err);
       if (err.type === "CredentialsSignin") {
-        return "Wrong Credentials";
+        return "Wrong Credentials!!";
       }
       throw err;
     }
