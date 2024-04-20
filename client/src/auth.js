@@ -8,7 +8,7 @@ const login = async (credentials) => {
     const reqUser = await fetch(`http://localhost/dogamo/api/index.php?email=${credentials.email}`);
     const user = await reqUser.json();
     if(user.message == "User not found"){
-      throw new Error("Wrong credentials!");
+      throw new Error("Wrong credentials!!");
     }
     console.log(user.password);
     const isPasswordCorrect = await bcrypt.compare(
