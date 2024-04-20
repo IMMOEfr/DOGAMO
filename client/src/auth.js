@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
 import { authConfig } from './authconfig';
-import bcrypt from 'bcryptjs-react';
+import bcrypt from 'bcryptjs';
  
 const login = async (credentials) => {
   try {
